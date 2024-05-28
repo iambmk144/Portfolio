@@ -1,0 +1,231 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Sections */
+  section {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Skills */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .skill h3 {
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    background-color: #f2f2f2;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    height: 100%;
+  }
+  
+  /* Skill Bars */
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar.python { width: 90%; background-color: #4B8BBE; }
+  .skill-bar.sql { width: 80%; background-color: #FFD43B; }
+  .skill-bar.html { width: 70%; background-color: #E34C26; }
+  .skill-bar.css { width: 70%; background-color: #1B73BA; }
+  .skill-bar.git { width: 80%; background-color: #F05032; }
+  .skill-bar.dsa { width: 80%; background-color: #6C757D; }
+  
+  /* Projects */
+  /* Project Boxes */
+.project {
+    display: flex;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .project-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .project h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .project ul {
+    margin-bottom: 10px;
+  }
+  
+  .project ul li {
+    color: #666;
+  }
+  
+  .project-color {
+    width: 100px;
+    background-color: #4B8BBE;
+  }
+  
+  /* Project Colors */
+  .food-munch { background-color: #4B8BBE; }
+  .tourism-website { background-color: #FFD43B; }
+  .portfolio-website { background-color: #E34C26; }
+  .cloud-storage { background-color: #1B73BA; }
+  
+  
+  /* Forms */
+  form {
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* CSS Styles */
+.about-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .link {
+    color: #007bff;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+ /* Achievements Section */
+#achievements {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .achievement {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .achievement h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .achievement p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .achievement p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .achievement p.presented-by {
+    font-style: italic;
+    color: #999;
+  }
+   
